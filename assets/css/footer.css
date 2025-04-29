@@ -1,0 +1,23 @@
+/* footer */
+footer {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .footer p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  
+  footer ul li a {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    transition: color 0.3s ease;
+    color: rgb(56, 56, 56);
+  }
+  
+  footer ul li a:hover {
+    color: #b0885a; /* warna gold-ish seperti situs asli */
+  }
+  

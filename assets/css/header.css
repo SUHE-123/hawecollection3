@@ -1,0 +1,63 @@
+/* Font Style header navbar dan banner */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+
+body {
+  font-family: 'cormorant garamond', serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+.custom-navbar {
+  background: white;
+  transition: background-color 0.3s ease;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 1rem 0;
+  color: burlywood;
+}
+
+.custom-navbar .nav-link {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.logo-text {
+  font-size: 28px;
+  position: absolute;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  color: burlywood;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+.navbar-brand.logo-text {
+    color: rgb(131, 129, 129); /* Ganti dengan warna yang kamu mau */
+  }
+
+.nav-link {
+    color: rgb(131, 129, 129);
+}
+
+.my-icon-color {
+    color: rgb(131, 129, 129); /* Ganti dengan kode warna yang kamu mau */
+  }
+  
+.custom-navbar .nav-link {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 25px;
+
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Homepage - Howel and Co Style</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Bootstrap CSS (pastikan sudah ada) -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons (penting untuk ikon panah) -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+      <!-- AOS Library CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+      <link href="assets/css/footer.css" rel="stylesheet">
+      <link href="assets/css/header.css" rel="stylesheet">
+      <link href="assets/css/style3.css" rel="stylesheet">
+    </head>
+    <body>
+<!-- Tambahkan di <head> -->
+  
+
+  <!-- Navbar -->
+<nav class="navbar fixed-top custom-navbar">
+  <div class="container-fluid d-flex justify-content-between align-items-center px-4">
+    
+    <!-- Kiri - Menu -->
+    <ul class="navbar-nav flex-row gap-4">
+      <li class="nav-item"><a class="nav-link " href="shop.html">Shop Product</a></li>
+      <li class="nav-item"><a class="nav-link " href="#">Shop By</a></li>
+      <li class="nav-item"><a class="nav-link " href="#">Souvenirs</a></li>
+      <li class="nav-item"><a class="nav-link " href="#">Corporate Gift</a></li>
+    </ul>
+
+    <!-- Tengah - Logo -->
+    <a class="navbar-brand logo-text" href="index.html">H</a>
+
+    <!-- Kanan - Ikon -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="#"><i class="bi bi-person  fs-5 my-icon-color"></i></a>
+      <a href="#"><i class="bi bi-search  fs-5 my-icon-color"></i></a>
+    </div>
+  </div>
+</nav>
+
+<div class="product-wrapper container-fluid px-4 py-5">
+    <!-- Sticky Filter & Sort Bar -->
+    <div class="sticky-top bg-white border-bottom py-3 z-index-sticky" style="top: 100px;">
+      <div class="row align-items-center">
+        <div class="col-md-3 d-flex align-items-center">
+          <strong>HIDE FILTERS</strong>
+          <span class="ms-2">&#9650;</span>
+        </div>
+        <div class="col-md-9 text-end">
+          <select class="form-select form-select-sm w-auto d-inline-block">
+            <option selected>SORT BY</option>
+            <option value="1">Price: Low to High</option>
+            <option value="2">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Konten utama -->
+    <div class="row mt-4">
+      <!-- Sidebar kiri -->
+      <div class="col-md-3">
+        <div class="filter-box p-3 border rounded bg-white" style="margin-top: 32px;">
+             
+          <div class="filter-section mb-4">
+            <h6 class="mb-2">Price</h6>
+            <input type="range" class="form-range" min="0" max="1000000" step="50000">
+            <div class="d-flex justify-content-between mt-2">
+              <input type="text" class="form-control form-control-sm me-1" placeholder="Rp 0">
+              <input type="text" class="form-control form-control-sm ms-1" placeholder="Rp 949900">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Konten Produk -->
+      <div class="col-md-9">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="product-card text-center">
+              <img src="assets/image/handuk1.jpg" class="img-fluid mb-2" alt="Produk 1">
+              <p class="mb-0">Sajadah Single - Halwa</p>
+              <p class="text-muted">Rp 179.900,00</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-card text-center">
+              <img src="assets/image/handuk1.jpg" class="img-fluid mb-2" alt="Produk 2">
+              <p class="mb-0">Sajadah Couple - Rayyan</p>
+              <p class="text-muted">Rp 349.900,00</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-card text-center">
+              <img src="assets/image/handuk1.jpg" class="img-fluid mb-2" alt="Produk 3">
+              <p class="mb-0">Sajadah Single - Rayyan</p>
+              <p class="text-muted">Rp 179.900,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+      
+          
+      
+  
+
+<!-- FOOTER -->
+<footer class="bg-white mt-5 pt-5 pb-3 border-top">
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">SHOP PRODUCTS</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Bath</a></li>
+            <li><a href="#" class="text-decoration-none ">Prayer</a></li>
+            <li><a href="#" class="text-decoration-none ">Baby & Kids</a></li>
+            <li><a href="#" class="text-decoration-none ">Home and Living</a></li>
+            <li><a href="#" class="text-decoration-none ">Seasonal Hampers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">SHOP BY</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Wedding Gifts</a></li>
+            <li><a href="#" class="text-decoration-none ">Newborn Gifts</a></li>
+            <li><a href="#" class="text-decoration-none ">Farewell Gifts</a></li>
+            <li><a href="#" class="text-decoration-none ">Souvenirs</a></li>
+            <li><a href="#" class="text-decoration-none ">Corporate Gifts</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">ABOUT US</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Brand Story</a></li>
+            <li><a href="#" class="text-decoration-none ">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">CARE & SERVICES</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Product care</a></li>
+            <li><a href="#" class="text-decoration-none ">FAQ</a></li>
+            <li><a href="#" class="text-decoration-none ">Return Policy</a></li>
+            <li><a href="#" class="text-decoration-none ">Terms of service</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="text-center mt-4 small text-muted">
+        © Howel and Co 2025 &nbsp; | &nbsp; Powered by Shopify
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

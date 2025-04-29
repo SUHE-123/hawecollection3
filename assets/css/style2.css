@@ -1,0 +1,170 @@
+
+
+.collection-section {
+  font-family:'cormorant garamond', serif;
+}
+
+.hashtag-title {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'cormorant garamond', serif;
+  font-style: italic;
+  color: #3d2b1f;
+}
+.collection-section .btn {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 0;
+  letter-spacing: 0.5px;
+  font-family: 'cormorant garamond', serif;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.collection-section .btn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+
+.product-card {
+  inline-size: 50%;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  inline-size: 100%;
+  block-size: 300px;
+  object-fit: cover;
+  display: block;
+  border: none;
+}
+
+.product-info {
+  background-color: #f8f5ef;
+  padding: 10px 0;
+}
+
+.product-title {
+  font-family: 'cormorant garamond', serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+.product-price {
+  font-family:'cormorant garamond', serif;
+  font-size: 10px;
+  color: #555;
+  margin: 0;
+}
+/*animasi*/
+.collection-section .card-img-top {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.collection-section .card:hover .card-img-top {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+/* konten kedua */
+.product-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-item img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+  transform: scale(1.03);
+}
+
+.product-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.product-icons img {
+  height: 30px;
+  width: auto;
+}
+
+.product-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.product-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 10px;
+  color: #555;
+}
+
+/* konten ketiga */
+.product-section {
+  background-color: #f9f5ef;
+  padding: 40px 0;
+}
+
+.product-card {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.product-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.product-image-wrapper:hover .product-image {
+  transform: scale(1.05);
+}
+
+.top-brand-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 45px;
+  height: auto;
+}
+
+.product-info {
+  margin-top: 15px;
+}
+
+.product-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 10px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.product-icons img {
+  width: 30px;
+  margin: 5px;
+}
+

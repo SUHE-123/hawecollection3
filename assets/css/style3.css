@@ -1,0 +1,53 @@
+.product-wrapper {
+  background-color: #fdfcfa;
+}
+
+.filter-box {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.filter-section h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.product-card img {
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+  transform: scale(1.03);
+}
+
+.product-card p {
+  font-size: 14px;
+}
+
+.form-select {
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 100px; /* Sesuaikan dengan tinggi header kamu */
+  z-index: 1020; /* Pastikan lebih tinggi dari konten lain */
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.filter-box {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.product-card img {
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+  transform: scale(1.03);
+}

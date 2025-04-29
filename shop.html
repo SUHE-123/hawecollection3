@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Homepage - Howel and Co Style</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Bootstrap CSS (pastikan sudah ada) -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons (penting untuk ikon panah) -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+      <!-- AOS Library CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+      <link href="assets/css/footer.css" rel="stylesheet">
+      <link href="assets/css/header.css" rel="stylesheet">
+      <link href="assets/css/style2.css" rel="stylesheet">
+    </head>
+    <body>
+<!-- Tambahkan di <head> -->
+  
+
+  <!-- Navbar -->
+<nav class="navbar fixed-top custom-navbar">
+  <div class="container-fluid d-flex justify-content-between align-items-center px-4">
+    
+    <!-- Kiri - Menu -->
+    <ul class="navbar-nav flex-row gap-4">
+      <li class="nav-item"><a class="nav-link " href="shop.html">Shop Product</a></li>
+      <li class="nav-item"><a class="nav-link " href="#">Shop By</a></li>
+      <li class="nav-item"><a class="nav-link " href="#">Souvenirs</a></li>
+      <li class="nav-item"><a class="nav-link " href="#">Corporate Gift</a></li>
+    </ul>
+
+    <!-- Tengah - Logo -->
+    <a class="navbar-brand logo-text" href="index.html">H</a>
+
+    <!-- Kanan - Ikon -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="#"><i class="bi bi-person  fs-5 my-icon-color"></i></a>
+      <a href="#"><i class="bi bi-search  fs-5 my-icon-color"></i></a>
+    </div>
+
+  </div>
+</nav>
+
+
+  <section class="collection-section py-5" style="background-color: #f8f5ef;">
+    <div class="container-fluid px-md-5">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+          <h4 class="hashtag-title">#RayainHowel2025</h4>
+          <a href="detail_view.html" class="btn btn-outline-dark mt-3">VIEW COLLECTION</a>
+        </div>
+        <div class="col-md-8 d-flex flex-wrap justify-content-start">
+          <!-- Produk 1 -->
+          <div class="product-card">
+            <img src="assets/image/handuk1.jpg" alt="Sajadah Single - Halwa">
+            <div class="product-info text-center">
+              <p class="product-title">Sajadah Single - Halwa</p>
+              <p class="product-price">Rp 179.900,00</p>
+            </div>
+          </div>
+          <!-- Produk 2 -->
+          <div class="product-card">
+            <img src="assets/image/handuk2.jpg" alt="Sajadah Couple - Rayyan">
+            <div class="product-info text-center">
+              <p class="product-title">Sajadah Couple - Rayyan</p>
+              <p class="product-price">Rp 349.900,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.remove("");
+          navbar.classList.add("bg-white", "shadow-sm");
+        } else {
+          navbar.classList.add("");
+          navbar.classList.remove("bg-white", "shadow-sm");
+        }
+      });
+    </script>
+  
+  <section class="product-section container mt-5">
+    <div class="row g-0 justify-content-center">
+      <!-- Produk 1 -->
+      <div class="col-md-4 col-12 p-2">
+        <div class="product-item">
+          <img src="assets/image/handuk1.jpg" alt="Sajadah Rayyan" class="img-fluid">
+          <div class="product-icons">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+          </div>
+          <p class="product-name">Sajadah Single - Rayyan</p>
+          <p class="product-price">Rp 179.900,00</p>
+        </div>
+      </div>
+      <!-- Produk 2 -->
+      <div class="col-md-4 col-12 p-2">
+        <div class="product-item">
+          <img src="assets/image/handuk2.jpg" alt="Sajadah Asena" class="img-fluid">
+          <div class="product-icons">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+          </div>
+          <p class="product-name">Sajadah Single - Asena</p>
+          <p class="product-price">Rp 179.900,00</p>
+        </div>
+      </div>
+      <!-- Produk 3 -->
+      <div class="col-md-4 col-12 p-2">
+        <div class="product-item">
+          <img src="assets/image/handuk2.jpg" alt="Sajadah Couple" class="img-fluid">
+          <div class="product-icons">
+            <img src="assets/image/handuk1.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk1.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+            <img src="assets/image/handuk2.jpg" alt="">
+          </div>
+          <p class="product-name">Sajadah Couple - Asena</p>
+          <p class="product-price">Rp 349.900,00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Konten Produk 3 -->
+<section class="product-section">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-md-4 product-card">
+        <div class="product-image-wrapper">
+          <img src="assets/image/handuk2.jpg" alt="Baby Clothing Set - Petite Bebe" class="product-image" />
+        </div>
+        <div class="product-info">
+          <h5 class="product-title">Baby Clothing Set - Petite Bebe</h5>
+          <p class="product-price">Rp 249.900,00</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+
+  <!-- FOOTER -->
+<footer class="bg-white mt-5 pt-5 pb-3 border-top">
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">SHOP PRODUCTS</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Bath</a></li>
+            <li><a href="#" class="text-decoration-none ">Prayer</a></li>
+            <li><a href="#" class="text-decoration-none ">Baby & Kids</a></li>
+            <li><a href="#" class="text-decoration-none ">Home and Living</a></li>
+            <li><a href="#" class="text-decoration-none ">Seasonal Hampers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">SHOP BY</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Wedding Gifts</a></li>
+            <li><a href="#" class="text-decoration-none ">Newborn Gifts</a></li>
+            <li><a href="#" class="text-decoration-none ">Farewell Gifts</a></li>
+            <li><a href="#" class="text-decoration-none ">Souvenirs</a></li>
+            <li><a href="#" class="text-decoration-none ">Corporate Gifts</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">ABOUT US</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Brand Story</a></li>
+            <li><a href="#" class="text-decoration-none ">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p class="fw-semibold">CARE & SERVICES</p>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Product care</a></li>
+            <li><a href="#" class="text-decoration-none ">FAQ</a></li>
+            <li><a href="#" class="text-decoration-none ">Return Policy</a></li>
+            <li><a href="#" class="text-decoration-none ">Terms of service</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="text-center mt-4 small text-muted">
+        © Howel and Co 2025 &nbsp; | &nbsp; Powered by Shopify
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* Font Style header navbar dan banner */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+
+body {
+  font-family: 'cormorant garamond', serif;
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar {
+  background: transparent;
+  transition: background-color 0.3s ease;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 1rem 0;
+}
+
+.custom-navbar .nav-link {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.custom-navbar {
+  background: transparent;
+  transition: background-color 0.3s ease;
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 1rem;
+
+}
+.navbar-brand.logo-text {
+  color: rgb(131, 129, 129); /* Ganti dengan warna yang kamu mau */
+}
+
+.nav-link {
+  color: rgb(131, 129, 129);
+}
+
+.my-icon-color {
+  color: rgb(131, 129, 129); /* Ganti dengan kode warna yang kamu mau */
+}
+.icon-custom {
+  color: rgb(131, 129, 129); /* Ganti sesuai warna yang kamu inginkan */
+}
+
+.custom-navbar .nav-link {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    padding: 1rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+
+  .navbar.scrolled .navbar-collapse {
+    background-color: white;
+  }
+}
+
+/* Carousel Fullscreen */
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Carousel text (optional) */
+.carousel-caption {
+  bottom: 20%;
+  z-index: 10;
+}
+
+.carousel-caption h5 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Responsive Navbar Text */
+@media (max-width: 768px) {
+  .navbar-brand,
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Optional: Make sure the container isn't too tight */
+.container {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+/* bagian konten homepage */
+.card-img-top {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-icons i {
+  font-size: 1rem;
+  margin: 0 5px;
+  color: #777;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* back to top */
+#backToTop {
+  width: 45px;
+  height: 45px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+
+/* footer */
+footer {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+footer h6 {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+footer ul li a {
+  font-size: 17px;
+  transition: color 0.3s ease;
+  color: black;
+}
+
+footer ul li a:hover {
+  color: #b0885a; /* warna gold-ish seperti situs asli */
+}
